@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15D013B577A210BF3B786BD /* libPods-StreetViewLaufen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5482DBA62F27D537A10E83 /* libPods-StreetViewLaufen.a */; };
+		C3A6220D1B6E5A58007842AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6220C1B6E5A58007842AB /* AppDelegate.swift */; };
+		C3A6220F1B6E5A58007842AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6220E1B6E5A58007842AB /* ViewController.swift */; };
+		C3A622121B6E5A58007842AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A622101B6E5A58007842AB /* Main.storyboard */; };
+		C3A622141B6E5A58007842AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A622131B6E5A58007842AB /* Images.xcassets */; };
+		C3A622171B6E5A58007842AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A622151B6E5A58007842AB /* LaunchScreen.xib */; };
+		C3A622231B6E5A58007842AB /* StreetViewLaufenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A622221B6E5A58007842AB /* StreetViewLaufenTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3A6221D1B6E5A58007842AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3A621FF1B6E5A58007842AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A622061B6E5A58007842AB;
+			remoteInfo = StreetViewLaufen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E342D24784EE982617784D /* Pods-StreetViewLaufen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewLaufen.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewLaufen/Pods-StreetViewLaufen.release.xcconfig"; sourceTree = "<group>"; };
+		7F5482DBA62F27D537A10E83 /* libPods-StreetViewLaufen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StreetViewLaufen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A622071B6E5A58007842AB /* StreetViewLaufen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetViewLaufen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6220B1B6E5A58007842AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A6220C1B6E5A58007842AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3A6220E1B6E5A58007842AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3A622111B6E5A58007842AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3A622131B6E5A58007842AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3A622161B6E5A58007842AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C3A6221C1B6E5A58007842AB /* StreetViewLaufenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetViewLaufenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A622211B6E5A58007842AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A622221B6E5A58007842AB /* StreetViewLaufenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewLaufenTests.swift; sourceTree = "<group>"; };
+		FA58F17C38A1DAC96D8CBA94 /* Pods-StreetViewLaufen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewLaufen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewLaufen/Pods-StreetViewLaufen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A622041B6E5A58007842AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D013B577A210BF3B786BD /* libPods-StreetViewLaufen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A622191B6E5A58007842AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BC620F5C62CDF0C7B33CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA58F17C38A1DAC96D8CBA94 /* Pods-StreetViewLaufen.debug.xcconfig */,
+				30E342D24784EE982617784D /* Pods-StreetViewLaufen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7341175DAEF5096CFB3B105E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F5482DBA62F27D537A10E83 /* libPods-StreetViewLaufen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3A621FE1B6E5A58007842AB = {
+			isa = PBXGroup;
+			children = (
+				C3A622091B6E5A58007842AB /* StreetViewLaufen */,
+				C3A6221F1B6E5A58007842AB /* StreetViewLaufenTests */,
+				C3A622081B6E5A58007842AB /* Products */,
+				14BC620F5C62CDF0C7B33CE8 /* Pods */,
+				7341175DAEF5096CFB3B105E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A622081B6E5A58007842AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A622071B6E5A58007842AB /* StreetViewLaufen.app */,
+				C3A6221C1B6E5A58007842AB /* StreetViewLaufenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A622091B6E5A58007842AB /* StreetViewLaufen */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6220C1B6E5A58007842AB /* AppDelegate.swift */,
+				C3A6220E1B6E5A58007842AB /* ViewController.swift */,
+				C3A622101B6E5A58007842AB /* Main.storyboard */,
+				C3A622131B6E5A58007842AB /* Images.xcassets */,
+				C3A622151B6E5A58007842AB /* LaunchScreen.xib */,
+				C3A6220A1B6E5A58007842AB /* Supporting Files */,
+			);
+			path = StreetViewLaufen;
+			sourceTree = "<group>";
+		};
+		C3A6220A1B6E5A58007842AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6220B1B6E5A58007842AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3A6221F1B6E5A58007842AB /* StreetViewLaufenTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A622221B6E5A58007842AB /* StreetViewLaufenTests.swift */,
+				C3A622201B6E5A58007842AB /* Supporting Files */,
+			);
+			path = StreetViewLaufenTests;
+			sourceTree = "<group>";
+		};
+		C3A622201B6E5A58007842AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A622211B6E5A58007842AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A622061B6E5A58007842AB /* StreetViewLaufen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A622261B6E5A58007842AB /* Build configuration list for PBXNativeTarget "StreetViewLaufen" */;
+			buildPhases = (
+				A8E788A2781BC1C301928B25 /* Check Pods Manifest.lock */,
+				C3A622031B6E5A58007842AB /* Sources */,
+				C3A622041B6E5A58007842AB /* Frameworks */,
+				C3A622051B6E5A58007842AB /* Resources */,
+				C6FE4761B2D641E942A98565 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetViewLaufen;
+			productName = StreetViewLaufen;
+			productReference = C3A622071B6E5A58007842AB /* StreetViewLaufen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3A6221B1B6E5A58007842AB /* StreetViewLaufenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A622291B6E5A58007842AB /* Build configuration list for PBXNativeTarget "StreetViewLaufenTests" */;
+			buildPhases = (
+				C3A622181B6E5A58007842AB /* Sources */,
+				C3A622191B6E5A58007842AB /* Frameworks */,
+				C3A6221A1B6E5A58007842AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A6221E1B6E5A58007842AB /* PBXTargetDependency */,
+			);
+			name = StreetViewLaufenTests;
+			productName = StreetViewLaufenTests;
+			productReference = C3A6221C1B6E5A58007842AB /* StreetViewLaufenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A621FF1B6E5A58007842AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tomas Harkema";
+				TargetAttributes = {
+					C3A622061B6E5A58007842AB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C3A6221B1B6E5A58007842AB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C3A622061B6E5A58007842AB;
+					};
+				};
+			};
+			buildConfigurationList = C3A622021B6E5A58007842AB /* Build configuration list for PBXProject "StreetViewLaufen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3A621FE1B6E5A58007842AB;
+			productRefGroup = C3A622081B6E5A58007842AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A622061B6E5A58007842AB /* StreetViewLaufen */,
+				C3A6221B1B6E5A58007842AB /* StreetViewLaufenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A622051B6E5A58007842AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A622121B6E5A58007842AB /* Main.storyboard in Resources */,
+				C3A622171B6E5A58007842AB /* LaunchScreen.xib in Resources */,
+				C3A622141B6E5A58007842AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6221A1B6E5A58007842AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8E788A2781BC1C301928B25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FE4761B2D641E942A98565 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetViewLaufen/Pods-StreetViewLaufen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A622031B6E5A58007842AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6220F1B6E5A58007842AB /* ViewController.swift in Sources */,
+				C3A6220D1B6E5A58007842AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A622181B6E5A58007842AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A622231B6E5A58007842AB /* StreetViewLaufenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3A6221E1B6E5A58007842AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A622061B6E5A58007842AB /* StreetViewLaufen */;
+			targetProxy = C3A6221D1B6E5A58007842AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3A622101B6E5A58007842AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A622111B6E5A58007842AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3A622151B6E5A58007842AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A622161B6E5A58007842AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3A622241B6E5A58007842AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3A622251B6E5A58007842AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3A622271B6E5A58007842AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58F17C38A1DAC96D8CBA94 /* Pods-StreetViewLaufen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreetViewLaufen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3A622281B6E5A58007842AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E342D24784EE982617784D /* Pods-StreetViewLaufen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreetViewLaufen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3A6222A1B6E5A58007842AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StreetViewLaufenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetViewLaufen.app/StreetViewLaufen";
+			};
+			name = Debug;
+		};
+		C3A6222B1B6E5A58007842AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StreetViewLaufenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetViewLaufen.app/StreetViewLaufen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A622021B6E5A58007842AB /* Build configuration list for PBXProject "StreetViewLaufen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A622241B6E5A58007842AB /* Debug */,
+				C3A622251B6E5A58007842AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A622261B6E5A58007842AB /* Build configuration list for PBXNativeTarget "StreetViewLaufen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A622271B6E5A58007842AB /* Debug */,
+				C3A622281B6E5A58007842AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A622291B6E5A58007842AB /* Build configuration list for PBXNativeTarget "StreetViewLaufenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6222A1B6E5A58007842AB /* Debug */,
+				C3A6222B1B6E5A58007842AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A621FF1B6E5A58007842AB /* Project object */;
+}
